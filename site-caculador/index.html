@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lei de Ohm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Primeira lei de Ohm</h1>
+    </header>
+
+
+<!--Parte da corrente eletrica-->
+
+<section id="a">
+<div id="dados">
+    <p> Achando a corrente elétrica</p>
+    <p>Tensão: <input type="number" name="tensão" id="txtt"></p> <!--<p><input type="checkbox" onclick="conversor"></p>-->
+    <p>Resistencia: <input type="number" name="resistencia" id="txtr"></p>
+    <p><input type="button" value="caucular" onclick="cauculoCorrente()" id="butão"  ></p>
+    
+</div>
+
+<div id="res">
+</div>
+</section>
+
+<br>
+
+<!-- Parte da Resistencia eletrica-->
+<section id="b">
+<div>
+    <p>Achando a resistencia elétrica</p>
+    <p>Tensão: <input type="number" name="tensão-1" id="txten"></p>
+    <p>Corrente: <input type="number" name="corrente-1" id="txco"></p>
+    <p><input type="button" value="caucular" onclick="cauculores()"></p>
+</div>
+
+<div id="ress">
+    
+
+</div>
+</section>
+
+<br>
+
+<section id="c">
+    <div>
+        <p>Achando a Tensão elétrica</p>
+        <p>Corrente: <input type="number" name="corrente-2" id="corr"></p>
+        <p>Resistencia: <input type="number" name="resistencia-2" id="resist"></p>
+        <p><input type="button" value="caucular" onclick="cauculoten()"></p>
+    </div>
+    <div id="R">
+
+    </div>
+</section>
+
+
+
+<footer>
+    <p>&copy; Lucas Ciannella</p>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
