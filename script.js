@@ -10,8 +10,6 @@ function cauculoCorrente(){
         let t = Number(tension.value)
         let r = Number(resist.value)
         let result = t / r
-
-        if(result += 1)
         res.innerHTML = ` A corrente é de ${result.toFixed(2).replace('.', ',')}A`
         
 
