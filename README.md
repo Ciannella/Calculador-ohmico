@@ -1,4 +1,4 @@
-# Cauculador-ohmico
+# Calculador-Ohmico
  
  
  
