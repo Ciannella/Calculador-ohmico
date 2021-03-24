@@ -1,45 +1,90 @@
-@import url('https://fonts.googleapis.com/css2? family = Bebas + Neue & display = swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Quantico&display=swap');
 
-
-h1{
-    font-family: 'Bebas Neue';
+*{
+    margin: 0;
+    padding: 0;
+    color:black;
+    font-weight: 600;
+    font-family: 'Quantico', sans-serif;
+    
 }
 
 
 body{ 
-    background: rgba(60, 60, 161, 0.966);
-    font: normal 15pt Arial;
-    
-
-}
-
-header{ 
-    color: white;
-    text-align: center;
-
-
+    background: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 
 section{
-    background: white;
+    background: rgba(255, 255, 255, 0.863);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px black;
-
-
-
 }
 
-footer{
-    color: white;
+section h1{
     text-align: center;
-    font-style: italic;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    
+}
 
+
+
+input{
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+/* botoes */
+input[type=button]{
+    
+    width: 60px;
+    height:30px;
+    text-align: center;
+    background: rgb(155, 152, 152);
+    font-size: 15px;
+    cursor: pointer;
+    color:#003BD1;
+    
+}
+
+input[type=button]:hover{
+    filter: brightness(60%);
+}
+
+
+
+
+input[type=number]{
+text-align: center;
+background: #6f84b3c2;
 
 }
 
+
+
+input[type=number]:hover{
+    transform:scale(0.9);
+    transition: 0.9s;
+    
+}
+
+
+/*header{
+    position: relative;
+    left: 360px;
+    bottom: 250px;
+    
+}*/
 

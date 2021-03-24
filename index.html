@@ -8,63 +8,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1> Primeira lei de Ohm</h1>
-    </header>
-
+   
+   <!--<header><img src="firjan.png" alt="logo do senai"></header>-->
+    
 
 <!--Parte da corrente eletrica-->
 
 <section id="a">
-<div id="dados">
-    <p> Achando a corrente elétrica</p>
-    <p>Tensão: <input type="number" name="tensão" id="txtt"></p> <!--<p><input type="checkbox" onclick="conversor"></p>-->
-    <p>Resistência: <input type="number" name="resistencia" id="txtr"></p>
-    <p><input type="button" value="cálcular" onclick="cauculoCorrente()" id="butão"  ></p>
-    
-</div>
+    <h1 style="color:#003BD1;">Primeira lei de ohms</h1>
+    <br>
+    <div id="dados">
+         <h2>Corrente elétrica</h2>
+        <br>
+        <p>Tensão: <input type="number" name="tensão" id="txtt"></p>  
+        <p>Resistência: <input type="number" name="resistencia" id="txtr"></p>
+        <p><input type="button" value="calcular" onclick="cauculoCorrente()" id="butão"  ></p>
+        <br>
+    </div>
 
-<div id="res">
-</div>
-</section>
+    <div id="res">
 
-<br>
+    </div>
+
+    <br>
 
 <!-- Parte da Resistencia eletrica-->
-<section id="b">
-<div>
-    <p>Achando a resistência elétrica</p>
-    <p>Tensão: <input type="number" name="tensão-1" id="txten"></p>
-    <p>Corrente: <input type="number" name="corrente-1" id="txco"></p>
-    <p><input type="button" value="cálcular" onclick="cauculores()"></p>
-</div>
 
-<div id="ress">
+    <hr>
+    <div>
+        <h2>Resistência Elétrica</h2>
+        <br>
+        <p>Tensão: <input type="number" name="tensão-1" id="txten"></p>
+        <p>Corrente: <input type="number" name="corrente-1" id="txco"></p>
+        <p><input type="button" value="calcular" onclick="cauculores()"></p>
+        <br>
+    </div>
+
+    <div id="ress">
     
 
-</div>
-</section>
+    </div>
+    <br>
 
-<br>
-
-<section id="c">
+<!--Parte da tensão elétrica-->
+    <hr>
     <div>
-        <p>Achando a Tensão elétrica</p>
+         <h2>Tensão Elétrica</h2>
+        <br>
         <p>Corrente: <input type="number" name="corrente-2" id="corr"></p>
         <p>Resistência: <input type="number" name="resistencia-2" id="resist"></p>
-        <p><input type="button" value="cálcular" onclick="cauculoten()"></p>
+        <p><input type="button" value="calcular" onclick="cauculoten()"></p>
+        <br>
     </div>
+    
+    
     <div id="R">
 
     </div>
+    <br>
+
 </section>
 
 
 
-<footer>
-    <p>&copy; Lucas Ciannella</p>
+    
 
-</footer>
+
+
 <script src="script.js"></script>
 </body>
 </html>

@@ -1,9 +1,10 @@
+
+
 function cauculoCorrente(){
     let tension = document.getElementById('txtt')
     let resist = document.getElementById('txtr')
     let res = document.getElementById('res')
-    
-    //teste para erro de dados vazios 
+     //teste para erro de dados vazios 
     if(tension.value.length == '' || resist.value.length == ''){
         window.alert('Adicione algum valor')
     }else{
@@ -13,12 +14,8 @@ function cauculoCorrente(){
         res.innerHTML = ` A corrente é de ${result.toFixed(2).replace('.', ',')}A`
         
 
-
-
     }
 }
-
-
 
 // função para  cálcular a resistencia
 
@@ -37,6 +34,7 @@ function cauculores(){
         let resultado = ten / c
         ress.innerHTML = `A resistencia é de ${resultado.toFixed(2).replace('.',',')}Ω`
     }
+    
 }
 
 
