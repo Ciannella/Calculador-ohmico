@@ -1,5 +1,11 @@
 # Calculador-Ohmico
+
+calculadora ohmica, feita com intuito de ajudar auxiliar alunos nas aulas de fisica e eletrica 
+
  
+    ![Gif](https://media4.giphy.com/media/legLnaMGm2rQ0j4Obg/giphy.gif?cid=790b76117f2f8e300e27dc81dc37a43cf73f2c758af117ca&rid=giphy.gif&ct=g)
  
+    
+    
  
- Podem acessar o site para testes clicando aqui: https://ciannella.github.io/Calculador-ohmico/
+ * [A calculadora](https://ciannella.github.io/Calculador-ohmico/)
